@@ -1,0 +1,1058 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:ex="http://example.org/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+>
+  <rdf:Description rdf:about="http://example.org/soil_moisture_pigeonpeas">
+    <rdf:type rdf:resource="http://example.org/Soil"/>
+    <ex:hasSoilMoisture rdf:datatype="http://www.w3.org/2001/XMLSchema#float">19.95733300712537</ex:hasSoilMoisture>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/rainfall_watermelon">
+    <rdf:type rdf:resource="http://example.org/EnvironmentalFactor"/>
+    <ex:hasRainfall rdf:datatype="http://www.w3.org/2001/XMLSchema#float">50.7862189449</ex:hasRainfall>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/fertilizer_jute">
+    <rdf:type rdf:resource="http://example.org/FarmingInput"/>
+    <ex:hasFertilizerUsage rdf:datatype="http://www.w3.org/2001/XMLSchema#float">125.96815370829314</ex:hasFertilizerUsage>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/crop_density_rice">
+    <ex:hasCropDensity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">11.674368274954768</ex:hasCropDensity>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/mothbeans">
+    <rdf:type rdf:resource="http://example.org/Crop"/>
+    <ex:hasNutrient rdf:datatype="http://www.w3.org/2001/XMLSchema#float">21.44</ex:hasNutrient>
+    <ex:hasNutrient rdf:datatype="http://www.w3.org/2001/XMLSchema#float">48.01</ex:hasNutrient>
+    <ex:hasNutrient rdf:datatype="http://www.w3.org/2001/XMLSchema#float">20.23</ex:hasNutrient>
+    <ex:hasEnvironmentalFactor rdf:resource="http://example.org/temp_mothbeans"/>
+    <ex:hasEnvironmentalFactor rdf:resource="http://example.org/humidity_mothbeans"/>
+    <ex:hasEnvironmentalFactor rdf:resource="http://example.org/rainfall_mothbeans"/>
+    <ex:hasSoil rdf:resource="http://example.org/soil_moisture_mothbeans"/>
+    <ex:hasSoil rdf:resource="http://example.org/soil_type_mothbeans"/>
+    <ex:hasFarmingOutput rdf:resource="http://example.org/crop_density_mothbeans"/>
+    <ex:hasFarmingOutput rdf:resource="http://example.org/growth_stage_mothbeans"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/coconut">
+    <rdf:type rdf:resource="http://example.org/Crop"/>
+    <ex:hasNutrient rdf:datatype="http://www.w3.org/2001/XMLSchema#float">21.98</ex:hasNutrient>
+    <ex:hasNutrient rdf:datatype="http://www.w3.org/2001/XMLSchema#float">16.93</ex:hasNutrient>
+    <ex:hasNutrient rdf:datatype="http://www.w3.org/2001/XMLSchema#float">30.59</ex:hasNutrient>
+    <ex:hasEnvironmentalFactor rdf:resource="http://example.org/temp_coconut"/>
+    <ex:hasEnvironmentalFactor rdf:resource="http://example.org/humidity_coconut"/>
+    <ex:hasEnvironmentalFactor rdf:resource="http://example.org/rainfall_coconut"/>
+    <ex:hasSoil rdf:resource="http://example.org/soil_moisture_coconut"/>
+    <ex:hasSoil rdf:resource="http://example.org/soil_type_coconut"/>
+    <ex:hasFarmingOutput rdf:resource="http://example.org/crop_density_coconut"/>
+    <ex:hasFarmingOutput rdf:resource="http://example.org/growth_stage_coconut"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/rainfall_blackgram">
+    <rdf:type rdf:resource="http://example.org/EnvironmentalFactor"/>
+    <ex:hasRainfall rdf:datatype="http://www.w3.org/2001/XMLSchema#float">67.8841511832</ex:hasRainfall>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/muskmelon">
+    <rdf:type rdf:resource="http://example.org/Crop"/>
+    <ex:hasNutrient rdf:datatype="http://www.w3.org/2001/XMLSchema#float">100.32</ex:hasNutrient>
+    <ex:hasNutrient rdf:datatype="http://www.w3.org/2001/XMLSchema#float">17.72</ex:hasNutrient>
+    <ex:hasNutrient rdf:datatype="http://www.w3.org/2001/XMLSchema#float">50.08</ex:hasNutrient>
+    <ex:hasEnvironmentalFactor rdf:resource="http://example.org/temp_muskmelon"/>
+    <ex:hasEnvironmentalFactor rdf:resource="http://example.org/humidity_muskmelon"/>
+    <ex:hasEnvironmentalFactor rdf:resource="http://example.org/rainfall_muskmelon"/>
+    <ex:hasSoil rdf:resource="http://example.org/soil_moisture_muskmelon"/>
+    <ex:hasSoil rdf:resource="http://example.org/soil_type_muskmelon"/>
+    <ex:hasFarmingOutput rdf:resource="http://example.org/crop_density_muskmelon"/>
+    <ex:hasFarmingOutput rdf:resource="http://example.org/growth_stage_muskmelon"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/papaya">
+    <rdf:type rdf:resource="http://example.org/Crop"/>
+    <ex:hasNutrient rdf:datatype="http://www.w3.org/2001/XMLSchema#float">49.88</ex:hasNutrient>
+    <ex:hasNutrient rdf:datatype="http://www.w3.org/2001/XMLSchema#float">59.05</ex:hasNutrient>
+    <ex:hasNutrient rdf:datatype="http://www.w3.org/2001/XMLSchema#float">50.04</ex:hasNutrient>
+    <ex:hasEnvironmentalFactor rdf:resource="http://example.org/temp_papaya"/>
+    <ex:hasEnvironmentalFactor rdf:resource="http://example.org/humidity_papaya"/>
+    <ex:hasEnvironmentalFactor rdf:resource="http://example.org/rainfall_papaya"/>
+    <ex:hasSoil rdf:resource="http://example.org/soil_moisture_papaya"/>
+    <ex:hasSoil rdf:resource="http://example.org/soil_type_papaya"/>
+    <ex:hasFarmingOutput rdf:resource="http://example.org/crop_density_papaya"/>
+    <ex:hasFarmingOutput rdf:resource="http://example.org/growth_stage_papaya"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/growth_stage_coconut">
+    <ex:hasGrowthStage rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.99</ex:hasGrowthStage>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/growth_stage_maize">
+    <ex:hasGrowthStage rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.94</ex:hasGrowthStage>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/coffee">
+    <rdf:type rdf:resource="http://example.org/Crop"/>
+    <ex:hasNutrient rdf:datatype="http://www.w3.org/2001/XMLSchema#float">101.2</ex:hasNutrient>
+    <ex:hasNutrient rdf:datatype="http://www.w3.org/2001/XMLSchema#float">28.74</ex:hasNutrient>
+    <ex:hasNutrient rdf:datatype="http://www.w3.org/2001/XMLSchema#float">29.94</ex:hasNutrient>
+    <ex:hasEnvironmentalFactor rdf:resource="http://example.org/temp_coffee"/>
+    <ex:hasEnvironmentalFactor rdf:resource="http://example.org/humidity_coffee"/>
+    <ex:hasEnvironmentalFactor rdf:resource="http://example.org/rainfall_coffee"/>
+    <ex:hasSoil rdf:resource="http://example.org/soil_moisture_coffee"/>
+    <ex:hasSoil rdf:resource="http://example.org/soil_type_coffee"/>
+    <ex:hasFarmingOutput rdf:resource="http://example.org/crop_density_coffee"/>
+    <ex:hasFarmingOutput rdf:resource="http://example.org/growth_stage_coffee"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/kidneybeans">
+    <rdf:type rdf:resource="http://example.org/Crop"/>
+    <ex:hasNutrient rdf:datatype="http://www.w3.org/2001/XMLSchema#float">20.75</ex:hasNutrient>
+    <ex:hasNutrient rdf:datatype="http://www.w3.org/2001/XMLSchema#float">67.54</ex:hasNutrient>
+    <ex:hasNutrient rdf:datatype="http://www.w3.org/2001/XMLSchema#float">20.05</ex:hasNutrient>
+    <ex:hasEnvironmentalFactor rdf:resource="http://example.org/temp_kidneybeans"/>
+    <ex:hasEnvironmentalFactor rdf:resource="http://example.org/humidity_kidneybeans"/>
+    <ex:hasEnvironmentalFactor rdf:resource="http://example.org/rainfall_kidneybeans"/>
+    <ex:hasSoil rdf:resource="http://example.org/soil_moisture_kidneybeans"/>
+    <ex:hasSoil rdf:resource="http://example.org/soil_type_kidneybeans"/>
+    <ex:hasFarmingOutput rdf:resource="http://example.org/crop_density_kidneybeans"/>
+    <ex:hasFarmingOutput rdf:resource="http://example.org/growth_stage_kidneybeans"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/soil_moisture_orange">
+    <rdf:type rdf:resource="http://example.org/Soil"/>
+    <ex:hasSoilMoisture rdf:datatype="http://www.w3.org/2001/XMLSchema#float">20.07032821447397</ex:hasSoilMoisture>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/fertilizer_banana">
+    <rdf:type rdf:resource="http://example.org/FarmingInput"/>
+    <ex:hasFertilizerUsage rdf:datatype="http://www.w3.org/2001/XMLSchema#float">122.2787445095196</ex:hasFertilizerUsage>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/maize">
+    <rdf:type rdf:resource="http://example.org/Crop"/>
+    <ex:hasNutrient rdf:datatype="http://www.w3.org/2001/XMLSchema#float">77.76</ex:hasNutrient>
+    <ex:hasNutrient rdf:datatype="http://www.w3.org/2001/XMLSchema#float">48.44</ex:hasNutrient>
+    <ex:hasNutrient rdf:datatype="http://www.w3.org/2001/XMLSchema#float">19.79</ex:hasNutrient>
+    <ex:hasEnvironmentalFactor rdf:resource="http://example.org/temp_maize"/>
+    <ex:hasEnvironmentalFactor rdf:resource="http://example.org/humidity_maize"/>
+    <ex:hasEnvironmentalFactor rdf:resource="http://example.org/rainfall_maize"/>
+    <ex:hasSoil rdf:resource="http://example.org/soil_moisture_maize"/>
+    <ex:hasSoil rdf:resource="http://example.org/soil_type_maize"/>
+    <ex:hasFarmingOutput rdf:resource="http://example.org/crop_density_maize"/>
+    <ex:hasFarmingOutput rdf:resource="http://example.org/growth_stage_maize"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/humidity_kidneybeans">
+    <rdf:type rdf:resource="http://example.org/EnvironmentalFactor"/>
+    <ex:hasHumidity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">21.6053567295</ex:hasHumidity>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/pomegranate">
+    <rdf:type rdf:resource="http://example.org/Crop"/>
+    <ex:hasNutrient rdf:datatype="http://www.w3.org/2001/XMLSchema#float">18.87</ex:hasNutrient>
+    <ex:hasNutrient rdf:datatype="http://www.w3.org/2001/XMLSchema#float">18.75</ex:hasNutrient>
+    <ex:hasNutrient rdf:datatype="http://www.w3.org/2001/XMLSchema#float">40.21</ex:hasNutrient>
+    <ex:hasEnvironmentalFactor rdf:resource="http://example.org/temp_pomegranate"/>
+    <ex:hasEnvironmentalFactor rdf:resource="http://example.org/humidity_pomegranate"/>
+    <ex:hasEnvironmentalFactor rdf:resource="http://example.org/rainfall_pomegranate"/>
+    <ex:hasSoil rdf:resource="http://example.org/soil_moisture_pomegranate"/>
+    <ex:hasSoil rdf:resource="http://example.org/soil_type_pomegranate"/>
+    <ex:hasFarmingOutput rdf:resource="http://example.org/crop_density_pomegranate"/>
+    <ex:hasFarmingOutput rdf:resource="http://example.org/growth_stage_pomegranate"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/irrigation_orange">
+    <rdf:type rdf:resource="http://example.org/FarmingInput"/>
+    <ex:hasIrrigationFrequency rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.69</ex:hasIrrigationFrequency>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/growth_stage_kidneybeans">
+    <ex:hasGrowthStage rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.04</ex:hasGrowthStage>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/apple">
+    <rdf:type rdf:resource="http://example.org/Crop"/>
+    <ex:hasNutrient rdf:datatype="http://www.w3.org/2001/XMLSchema#float">20.8</ex:hasNutrient>
+    <ex:hasNutrient rdf:datatype="http://www.w3.org/2001/XMLSchema#float">134.22</ex:hasNutrient>
+    <ex:hasNutrient rdf:datatype="http://www.w3.org/2001/XMLSchema#float">199.89</ex:hasNutrient>
+    <ex:hasEnvironmentalFactor rdf:resource="http://example.org/temp_apple"/>
+    <ex:hasEnvironmentalFactor rdf:resource="http://example.org/humidity_apple"/>
+    <ex:hasEnvironmentalFactor rdf:resource="http://example.org/rainfall_apple"/>
+    <ex:hasSoil rdf:resource="http://example.org/soil_moisture_apple"/>
+    <ex:hasSoil rdf:resource="http://example.org/soil_type_apple"/>
+    <ex:hasFarmingOutput rdf:resource="http://example.org/crop_density_apple"/>
+    <ex:hasFarmingOutput rdf:resource="http://example.org/growth_stage_apple"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/crop_density_apple">
+    <ex:hasCropDensity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">11.815561419533344</ex:hasCropDensity>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/humidity_muskmelon">
+    <rdf:type rdf:resource="http://example.org/EnvironmentalFactor"/>
+    <ex:hasHumidity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">92.3428019609</ex:hasHumidity>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/jute">
+    <rdf:type rdf:resource="http://example.org/Crop"/>
+    <ex:hasNutrient rdf:datatype="http://www.w3.org/2001/XMLSchema#float">78.4</ex:hasNutrient>
+    <ex:hasNutrient rdf:datatype="http://www.w3.org/2001/XMLSchema#float">46.86</ex:hasNutrient>
+    <ex:hasNutrient rdf:datatype="http://www.w3.org/2001/XMLSchema#float">39.99</ex:hasNutrient>
+    <ex:hasEnvironmentalFactor rdf:resource="http://example.org/temp_jute"/>
+    <ex:hasEnvironmentalFactor rdf:resource="http://example.org/humidity_jute"/>
+    <ex:hasEnvironmentalFactor rdf:resource="http://example.org/rainfall_jute"/>
+    <ex:hasSoil rdf:resource="http://example.org/soil_moisture_jute"/>
+    <ex:hasSoil rdf:resource="http://example.org/soil_type_jute"/>
+    <ex:hasFarmingOutput rdf:resource="http://example.org/crop_density_jute"/>
+    <ex:hasFarmingOutput rdf:resource="http://example.org/growth_stage_jute"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/irrigation_papaya">
+    <rdf:type rdf:resource="http://example.org/FarmingInput"/>
+    <ex:hasIrrigationFrequency rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.49</ex:hasIrrigationFrequency>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/humidity_coconut">
+    <rdf:type rdf:resource="http://example.org/EnvironmentalFactor"/>
+    <ex:hasHumidity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">94.8442718061</ex:hasHumidity>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/Crop">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/temp_mango">
+    <rdf:type rdf:resource="http://example.org/EnvironmentalFactor"/>
+    <ex:hasTemperature rdf:datatype="http://www.w3.org/2001/XMLSchema#float">31.2087701513</ex:hasTemperature>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/soil_moisture_jute">
+    <rdf:type rdf:resource="http://example.org/Soil"/>
+    <ex:hasSoilMoisture rdf:datatype="http://www.w3.org/2001/XMLSchema#float">18.665502088654392</ex:hasSoilMoisture>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/growth_stage_pomegranate">
+    <ex:hasGrowthStage rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.89</ex:hasGrowthStage>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/temp_blackgram">
+    <rdf:type rdf:resource="http://example.org/EnvironmentalFactor"/>
+    <ex:hasTemperature rdf:datatype="http://www.w3.org/2001/XMLSchema#float">29.9733396789</ex:hasTemperature>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/grapes">
+    <rdf:type rdf:resource="http://example.org/Crop"/>
+    <ex:hasNutrient rdf:datatype="http://www.w3.org/2001/XMLSchema#float">23.18</ex:hasNutrient>
+    <ex:hasNutrient rdf:datatype="http://www.w3.org/2001/XMLSchema#float">132.53</ex:hasNutrient>
+    <ex:hasNutrient rdf:datatype="http://www.w3.org/2001/XMLSchema#float">200.11</ex:hasNutrient>
+    <ex:hasEnvironmentalFactor rdf:resource="http://example.org/temp_grapes"/>
+    <ex:hasEnvironmentalFactor rdf:resource="http://example.org/humidity_grapes"/>
+    <ex:hasEnvironmentalFactor rdf:resource="http://example.org/rainfall_grapes"/>
+    <ex:hasSoil rdf:resource="http://example.org/soil_moisture_grapes"/>
+    <ex:hasSoil rdf:resource="http://example.org/soil_type_grapes"/>
+    <ex:hasFarmingOutput rdf:resource="http://example.org/crop_density_grapes"/>
+    <ex:hasFarmingOutput rdf:resource="http://example.org/growth_stage_grapes"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/temp_muskmelon">
+    <rdf:type rdf:resource="http://example.org/EnvironmentalFactor"/>
+    <ex:hasTemperature rdf:datatype="http://www.w3.org/2001/XMLSchema#float">28.663065756</ex:hasTemperature>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/chickpea">
+    <rdf:type rdf:resource="http://example.org/Crop"/>
+    <ex:hasNutrient rdf:datatype="http://www.w3.org/2001/XMLSchema#float">40.09</ex:hasNutrient>
+    <ex:hasNutrient rdf:datatype="http://www.w3.org/2001/XMLSchema#float">67.79</ex:hasNutrient>
+    <ex:hasNutrient rdf:datatype="http://www.w3.org/2001/XMLSchema#float">79.92</ex:hasNutrient>
+    <ex:hasEnvironmentalFactor rdf:resource="http://example.org/temp_chickpea"/>
+    <ex:hasEnvironmentalFactor rdf:resource="http://example.org/humidity_chickpea"/>
+    <ex:hasEnvironmentalFactor rdf:resource="http://example.org/rainfall_chickpea"/>
+    <ex:hasSoil rdf:resource="http://example.org/soil_moisture_chickpea"/>
+    <ex:hasSoil rdf:resource="http://example.org/soil_type_chickpea"/>
+    <ex:hasFarmingOutput rdf:resource="http://example.org/crop_density_chickpea"/>
+    <ex:hasFarmingOutput rdf:resource="http://example.org/growth_stage_chickpea"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/soil_moisture_coffee">
+    <rdf:type rdf:resource="http://example.org/Soil"/>
+    <ex:hasSoilMoisture rdf:datatype="http://www.w3.org/2001/XMLSchema#float">19.94056083915992</ex:hasSoilMoisture>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/crop_density_papaya">
+    <ex:hasCropDensity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">11.919560263727398</ex:hasCropDensity>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/orange">
+    <rdf:type rdf:resource="http://example.org/Crop"/>
+    <ex:hasNutrient rdf:datatype="http://www.w3.org/2001/XMLSchema#float">19.58</ex:hasNutrient>
+    <ex:hasNutrient rdf:datatype="http://www.w3.org/2001/XMLSchema#float">16.55</ex:hasNutrient>
+    <ex:hasNutrient rdf:datatype="http://www.w3.org/2001/XMLSchema#float">10.01</ex:hasNutrient>
+    <ex:hasEnvironmentalFactor rdf:resource="http://example.org/temp_orange"/>
+    <ex:hasEnvironmentalFactor rdf:resource="http://example.org/humidity_orange"/>
+    <ex:hasEnvironmentalFactor rdf:resource="http://example.org/rainfall_orange"/>
+    <ex:hasSoil rdf:resource="http://example.org/soil_moisture_orange"/>
+    <ex:hasSoil rdf:resource="http://example.org/soil_type_orange"/>
+    <ex:hasFarmingOutput rdf:resource="http://example.org/crop_density_orange"/>
+    <ex:hasFarmingOutput rdf:resource="http://example.org/growth_stage_orange"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/fertilizer_apple">
+    <rdf:type rdf:resource="http://example.org/FarmingInput"/>
+    <ex:hasFertilizerUsage rdf:datatype="http://www.w3.org/2001/XMLSchema#float">131.4460348073217</ex:hasFertilizerUsage>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/cotton">
+    <rdf:type rdf:resource="http://example.org/Crop"/>
+    <ex:hasNutrient rdf:datatype="http://www.w3.org/2001/XMLSchema#float">117.77</ex:hasNutrient>
+    <ex:hasNutrient rdf:datatype="http://www.w3.org/2001/XMLSchema#float">46.24</ex:hasNutrient>
+    <ex:hasNutrient rdf:datatype="http://www.w3.org/2001/XMLSchema#float">19.56</ex:hasNutrient>
+    <ex:hasEnvironmentalFactor rdf:resource="http://example.org/temp_cotton"/>
+    <ex:hasEnvironmentalFactor rdf:resource="http://example.org/humidity_cotton"/>
+    <ex:hasEnvironmentalFactor rdf:resource="http://example.org/rainfall_cotton"/>
+    <ex:hasSoil rdf:resource="http://example.org/soil_moisture_cotton"/>
+    <ex:hasSoil rdf:resource="http://example.org/soil_type_cotton"/>
+    <ex:hasFarmingOutput rdf:resource="http://example.org/crop_density_cotton"/>
+    <ex:hasFarmingOutput rdf:resource="http://example.org/growth_stage_cotton"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/humidity_coffee">
+    <rdf:type rdf:resource="http://example.org/EnvironmentalFactor"/>
+    <ex:hasHumidity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">58.8698463003</ex:hasHumidity>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/mango">
+    <rdf:type rdf:resource="http://example.org/Crop"/>
+    <ex:hasNutrient rdf:datatype="http://www.w3.org/2001/XMLSchema#float">20.07</ex:hasNutrient>
+    <ex:hasNutrient rdf:datatype="http://www.w3.org/2001/XMLSchema#float">27.18</ex:hasNutrient>
+    <ex:hasNutrient rdf:datatype="http://www.w3.org/2001/XMLSchema#float">29.92</ex:hasNutrient>
+    <ex:hasEnvironmentalFactor rdf:resource="http://example.org/temp_mango"/>
+    <ex:hasEnvironmentalFactor rdf:resource="http://example.org/humidity_mango"/>
+    <ex:hasEnvironmentalFactor rdf:resource="http://example.org/rainfall_mango"/>
+    <ex:hasSoil rdf:resource="http://example.org/soil_moisture_mango"/>
+    <ex:hasSoil rdf:resource="http://example.org/soil_type_mango"/>
+    <ex:hasFarmingOutput rdf:resource="http://example.org/crop_density_mango"/>
+    <ex:hasFarmingOutput rdf:resource="http://example.org/growth_stage_mango"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/rainfall_maize">
+    <rdf:type rdf:resource="http://example.org/EnvironmentalFactor"/>
+    <ex:hasRainfall rdf:datatype="http://www.w3.org/2001/XMLSchema#float">84.766987663</ex:hasRainfall>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/soil_type_kidneybeans">
+    <rdf:type rdf:resource="http://example.org/Soil"/>
+    <ex:hasSoilType rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.05</ex:hasSoilType>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/irrigation_apple">
+    <rdf:type rdf:resource="http://example.org/FarmingInput"/>
+    <ex:hasIrrigationFrequency rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.47</ex:hasIrrigationFrequency>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/soil_type_pomegranate">
+    <rdf:type rdf:resource="http://example.org/Soil"/>
+    <ex:hasSoilType rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.0</ex:hasSoilType>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/humidity_grapes">
+    <rdf:type rdf:resource="http://example.org/EnvironmentalFactor"/>
+    <ex:hasHumidity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">81.8752275212</ex:hasHumidity>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/soil_type_papaya">
+    <rdf:type rdf:resource="http://example.org/Soil"/>
+    <ex:hasSoilType rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.92</ex:hasSoilType>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/fertilizer_coffee">
+    <rdf:type rdf:resource="http://example.org/FarmingInput"/>
+    <ex:hasFertilizerUsage rdf:datatype="http://www.w3.org/2001/XMLSchema#float">126.19342671997155</ex:hasFertilizerUsage>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/humidity_jute">
+    <rdf:type rdf:resource="http://example.org/EnvironmentalFactor"/>
+    <ex:hasHumidity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">79.6398642063</ex:hasHumidity>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/humidity_banana">
+    <rdf:type rdf:resource="http://example.org/EnvironmentalFactor"/>
+    <ex:hasHumidity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">80.35812258109999</ex:hasHumidity>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/crop_density_mothbeans">
+    <ex:hasCropDensity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">12.736928950858148</ex:hasCropDensity>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/temp_jute">
+    <rdf:type rdf:resource="http://example.org/EnvironmentalFactor"/>
+    <ex:hasTemperature rdf:datatype="http://www.w3.org/2001/XMLSchema#float">24.9583758265</ex:hasTemperature>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/soil_moisture_chickpea">
+    <rdf:type rdf:resource="http://example.org/Soil"/>
+    <ex:hasSoilMoisture rdf:datatype="http://www.w3.org/2001/XMLSchema#float">20.24212313276388</ex:hasSoilMoisture>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/banana">
+    <rdf:type rdf:resource="http://example.org/Crop"/>
+    <ex:hasNutrient rdf:datatype="http://www.w3.org/2001/XMLSchema#float">100.23</ex:hasNutrient>
+    <ex:hasNutrient rdf:datatype="http://www.w3.org/2001/XMLSchema#float">82.01</ex:hasNutrient>
+    <ex:hasNutrient rdf:datatype="http://www.w3.org/2001/XMLSchema#float">50.05</ex:hasNutrient>
+    <ex:hasEnvironmentalFactor rdf:resource="http://example.org/temp_banana"/>
+    <ex:hasEnvironmentalFactor rdf:resource="http://example.org/humidity_banana"/>
+    <ex:hasEnvironmentalFactor rdf:resource="http://example.org/rainfall_banana"/>
+    <ex:hasSoil rdf:resource="http://example.org/soil_moisture_banana"/>
+    <ex:hasSoil rdf:resource="http://example.org/soil_type_banana"/>
+    <ex:hasFarmingOutput rdf:resource="http://example.org/crop_density_banana"/>
+    <ex:hasFarmingOutput rdf:resource="http://example.org/growth_stage_banana"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/irrigation_rice">
+    <rdf:type rdf:resource="http://example.org/FarmingInput"/>
+    <ex:hasIrrigationFrequency rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.6</ex:hasIrrigationFrequency>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/lentil">
+    <rdf:type rdf:resource="http://example.org/Crop"/>
+    <ex:hasNutrient rdf:datatype="http://www.w3.org/2001/XMLSchema#float">18.77</ex:hasNutrient>
+    <ex:hasNutrient rdf:datatype="http://www.w3.org/2001/XMLSchema#float">68.36</ex:hasNutrient>
+    <ex:hasNutrient rdf:datatype="http://www.w3.org/2001/XMLSchema#float">19.41</ex:hasNutrient>
+    <ex:hasEnvironmentalFactor rdf:resource="http://example.org/temp_lentil"/>
+    <ex:hasEnvironmentalFactor rdf:resource="http://example.org/humidity_lentil"/>
+    <ex:hasEnvironmentalFactor rdf:resource="http://example.org/rainfall_lentil"/>
+    <ex:hasSoil rdf:resource="http://example.org/soil_moisture_lentil"/>
+    <ex:hasSoil rdf:resource="http://example.org/soil_type_lentil"/>
+    <ex:hasFarmingOutput rdf:resource="http://example.org/crop_density_lentil"/>
+    <ex:hasFarmingOutput rdf:resource="http://example.org/growth_stage_lentil"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/rainfall_kidneybeans">
+    <rdf:type rdf:resource="http://example.org/EnvironmentalFactor"/>
+    <ex:hasRainfall rdf:datatype="http://www.w3.org/2001/XMLSchema#float">105.9197775421</ex:hasRainfall>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/soil_type_rice">
+    <rdf:type rdf:resource="http://example.org/Soil"/>
+    <ex:hasSoilType rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.94</ex:hasSoilType>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/irrigation_cotton">
+    <rdf:type rdf:resource="http://example.org/FarmingInput"/>
+    <ex:hasIrrigationFrequency rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.62</ex:hasIrrigationFrequency>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/growth_stage_coffee">
+    <ex:hasGrowthStage rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.01</ex:hasGrowthStage>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/temp_rice">
+    <rdf:type rdf:resource="http://example.org/EnvironmentalFactor"/>
+    <ex:hasTemperature rdf:datatype="http://www.w3.org/2001/XMLSchema#float">23.6893322105</ex:hasTemperature>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/fertilizer_rice">
+    <rdf:type rdf:resource="http://example.org/FarmingInput"/>
+    <ex:hasFertilizerUsage rdf:datatype="http://www.w3.org/2001/XMLSchema#float">122.68016641155332</ex:hasFertilizerUsage>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/irrigation_blackgram">
+    <rdf:type rdf:resource="http://example.org/FarmingInput"/>
+    <ex:hasIrrigationFrequency rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.64</ex:hasIrrigationFrequency>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/temp_mothbeans">
+    <rdf:type rdf:resource="http://example.org/EnvironmentalFactor"/>
+    <ex:hasTemperature rdf:datatype="http://www.w3.org/2001/XMLSchema#float">28.1949204842</ex:hasTemperature>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/fertilizer_pigeonpeas">
+    <rdf:type rdf:resource="http://example.org/FarmingInput"/>
+    <ex:hasFertilizerUsage rdf:datatype="http://www.w3.org/2001/XMLSchema#float">123.58171322520816</ex:hasFertilizerUsage>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/fertilizer_mango">
+    <rdf:type rdf:resource="http://example.org/FarmingInput"/>
+    <ex:hasFertilizerUsage rdf:datatype="http://www.w3.org/2001/XMLSchema#float">128.20771521391734</ex:hasFertilizerUsage>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/temp_coconut">
+    <rdf:type rdf:resource="http://example.org/EnvironmentalFactor"/>
+    <ex:hasTemperature rdf:datatype="http://www.w3.org/2001/XMLSchema#float">27.4098921723</ex:hasTemperature>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/rainfall_mango">
+    <rdf:type rdf:resource="http://example.org/EnvironmentalFactor"/>
+    <ex:hasRainfall rdf:datatype="http://www.w3.org/2001/XMLSchema#float">94.7045150448</ex:hasRainfall>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/growth_stage_rice">
+    <ex:hasGrowthStage rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.92</ex:hasGrowthStage>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/blackgram">
+    <rdf:type rdf:resource="http://example.org/Crop"/>
+    <ex:hasNutrient rdf:datatype="http://www.w3.org/2001/XMLSchema#float">40.02</ex:hasNutrient>
+    <ex:hasNutrient rdf:datatype="http://www.w3.org/2001/XMLSchema#float">67.47</ex:hasNutrient>
+    <ex:hasNutrient rdf:datatype="http://www.w3.org/2001/XMLSchema#float">19.24</ex:hasNutrient>
+    <ex:hasEnvironmentalFactor rdf:resource="http://example.org/temp_blackgram"/>
+    <ex:hasEnvironmentalFactor rdf:resource="http://example.org/humidity_blackgram"/>
+    <ex:hasEnvironmentalFactor rdf:resource="http://example.org/rainfall_blackgram"/>
+    <ex:hasSoil rdf:resource="http://example.org/soil_moisture_blackgram"/>
+    <ex:hasSoil rdf:resource="http://example.org/soil_type_blackgram"/>
+    <ex:hasFarmingOutput rdf:resource="http://example.org/crop_density_blackgram"/>
+    <ex:hasFarmingOutput rdf:resource="http://example.org/growth_stage_blackgram"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/soil_type_grapes">
+    <rdf:type rdf:resource="http://example.org/Soil"/>
+    <ex:hasSoilType rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.03</ex:hasSoilType>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/crop_density_mungbean">
+    <ex:hasCropDensity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">12.46563740551964</ex:hasCropDensity>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/rainfall_pigeonpeas">
+    <rdf:type rdf:resource="http://example.org/EnvironmentalFactor"/>
+    <ex:hasRainfall rdf:datatype="http://www.w3.org/2001/XMLSchema#float">149.4575638135</ex:hasRainfall>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/rice">
+    <rdf:type rdf:resource="http://example.org/Crop"/>
+    <ex:hasNutrient rdf:datatype="http://www.w3.org/2001/XMLSchema#float">79.89</ex:hasNutrient>
+    <ex:hasNutrient rdf:datatype="http://www.w3.org/2001/XMLSchema#float">47.58</ex:hasNutrient>
+    <ex:hasNutrient rdf:datatype="http://www.w3.org/2001/XMLSchema#float">39.87</ex:hasNutrient>
+    <ex:hasEnvironmentalFactor rdf:resource="http://example.org/temp_rice"/>
+    <ex:hasEnvironmentalFactor rdf:resource="http://example.org/humidity_rice"/>
+    <ex:hasEnvironmentalFactor rdf:resource="http://example.org/rainfall_rice"/>
+    <ex:hasSoil rdf:resource="http://example.org/soil_moisture_rice"/>
+    <ex:hasSoil rdf:resource="http://example.org/soil_type_rice"/>
+    <ex:hasFarmingOutput rdf:resource="http://example.org/crop_density_rice"/>
+    <ex:hasFarmingOutput rdf:resource="http://example.org/growth_stage_rice"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/irrigation_banana">
+    <rdf:type rdf:resource="http://example.org/FarmingInput"/>
+    <ex:hasIrrigationFrequency rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.48</ex:hasIrrigationFrequency>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/soil_type_orange">
+    <rdf:type rdf:resource="http://example.org/Soil"/>
+    <ex:hasSoilType rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.95</ex:hasSoilType>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/temp_orange">
+    <rdf:type rdf:resource="http://example.org/EnvironmentalFactor"/>
+    <ex:hasTemperature rdf:datatype="http://www.w3.org/2001/XMLSchema#float">22.7657254967</ex:hasTemperature>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/temp_kidneybeans">
+    <rdf:type rdf:resource="http://example.org/EnvironmentalFactor"/>
+    <ex:hasTemperature rdf:datatype="http://www.w3.org/2001/XMLSchema#float">20.1150846851</ex:hasTemperature>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/soil_moisture_mungbean">
+    <rdf:type rdf:resource="http://example.org/Soil"/>
+    <ex:hasSoilMoisture rdf:datatype="http://www.w3.org/2001/XMLSchema#float">21.18957137229912</ex:hasSoilMoisture>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/mungbean">
+    <rdf:type rdf:resource="http://example.org/Crop"/>
+    <ex:hasNutrient rdf:datatype="http://www.w3.org/2001/XMLSchema#float">20.99</ex:hasNutrient>
+    <ex:hasNutrient rdf:datatype="http://www.w3.org/2001/XMLSchema#float">47.28</ex:hasNutrient>
+    <ex:hasNutrient rdf:datatype="http://www.w3.org/2001/XMLSchema#float">19.87</ex:hasNutrient>
+    <ex:hasEnvironmentalFactor rdf:resource="http://example.org/temp_mungbean"/>
+    <ex:hasEnvironmentalFactor rdf:resource="http://example.org/humidity_mungbean"/>
+    <ex:hasEnvironmentalFactor rdf:resource="http://example.org/rainfall_mungbean"/>
+    <ex:hasSoil rdf:resource="http://example.org/soil_moisture_mungbean"/>
+    <ex:hasSoil rdf:resource="http://example.org/soil_type_mungbean"/>
+    <ex:hasFarmingOutput rdf:resource="http://example.org/crop_density_mungbean"/>
+    <ex:hasFarmingOutput rdf:resource="http://example.org/growth_stage_mungbean"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/crop_density_cotton">
+    <ex:hasCropDensity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">12.881849734458395</ex:hasCropDensity>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/fertilizer_coconut">
+    <rdf:type rdf:resource="http://example.org/FarmingInput"/>
+    <ex:hasFertilizerUsage rdf:datatype="http://www.w3.org/2001/XMLSchema#float">128.85326202467647</ex:hasFertilizerUsage>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/soil_type_pigeonpeas">
+    <rdf:type rdf:resource="http://example.org/Soil"/>
+    <ex:hasSoilType rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.97</ex:hasSoilType>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/soil_type_watermelon">
+    <rdf:type rdf:resource="http://example.org/Soil"/>
+    <ex:hasSoilType rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.09</ex:hasSoilType>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/soil_moisture_lentil">
+    <rdf:type rdf:resource="http://example.org/Soil"/>
+    <ex:hasSoilMoisture rdf:datatype="http://www.w3.org/2001/XMLSchema#float">20.456370694676146</ex:hasSoilMoisture>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/soil_type_apple">
+    <rdf:type rdf:resource="http://example.org/Soil"/>
+    <ex:hasSoilType rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.02</ex:hasSoilType>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/soil_moisture_kidneybeans">
+    <rdf:type rdf:resource="http://example.org/Soil"/>
+    <ex:hasSoilMoisture rdf:datatype="http://www.w3.org/2001/XMLSchema#float">20.249312321658184</ex:hasSoilMoisture>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/humidity_mango">
+    <rdf:type rdf:resource="http://example.org/EnvironmentalFactor"/>
+    <ex:hasHumidity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">50.1565726953</ex:hasHumidity>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/temp_banana">
+    <rdf:type rdf:resource="http://example.org/EnvironmentalFactor"/>
+    <ex:hasTemperature rdf:datatype="http://www.w3.org/2001/XMLSchema#float">27.3767983057</ex:hasTemperature>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/rainfall_mothbeans">
+    <rdf:type rdf:resource="http://example.org/EnvironmentalFactor"/>
+    <ex:hasRainfall rdf:datatype="http://www.w3.org/2001/XMLSchema#float">51.198487045700006</ex:hasRainfall>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/humidity_mungbean">
+    <rdf:type rdf:resource="http://example.org/EnvironmentalFactor"/>
+    <ex:hasHumidity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">85.49997454300001</ex:hasHumidity>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/soil_moisture_rice">
+    <rdf:type rdf:resource="http://example.org/Soil"/>
+    <ex:hasSoilMoisture rdf:datatype="http://www.w3.org/2001/XMLSchema#float">19.17579734845668</ex:hasSoilMoisture>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/watermelon">
+    <rdf:type rdf:resource="http://example.org/Crop"/>
+    <ex:hasNutrient rdf:datatype="http://www.w3.org/2001/XMLSchema#float">99.42</ex:hasNutrient>
+    <ex:hasNutrient rdf:datatype="http://www.w3.org/2001/XMLSchema#float">17.0</ex:hasNutrient>
+    <ex:hasNutrient rdf:datatype="http://www.w3.org/2001/XMLSchema#float">50.22</ex:hasNutrient>
+    <ex:hasEnvironmentalFactor rdf:resource="http://example.org/temp_watermelon"/>
+    <ex:hasEnvironmentalFactor rdf:resource="http://example.org/humidity_watermelon"/>
+    <ex:hasEnvironmentalFactor rdf:resource="http://example.org/rainfall_watermelon"/>
+    <ex:hasSoil rdf:resource="http://example.org/soil_moisture_watermelon"/>
+    <ex:hasSoil rdf:resource="http://example.org/soil_type_watermelon"/>
+    <ex:hasFarmingOutput rdf:resource="http://example.org/crop_density_watermelon"/>
+    <ex:hasFarmingOutput rdf:resource="http://example.org/growth_stage_watermelon"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/soil_type_maize">
+    <rdf:type rdf:resource="http://example.org/Soil"/>
+    <ex:hasSoilType rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.95</ex:hasSoilType>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/humidity_lentil">
+    <rdf:type rdf:resource="http://example.org/EnvironmentalFactor"/>
+    <ex:hasHumidity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">64.8047846785</ex:hasHumidity>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/irrigation_mango">
+    <rdf:type rdf:resource="http://example.org/FarmingInput"/>
+    <ex:hasIrrigationFrequency rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.37</ex:hasIrrigationFrequency>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/rainfall_papaya">
+    <rdf:type rdf:resource="http://example.org/EnvironmentalFactor"/>
+    <ex:hasRainfall rdf:datatype="http://www.w3.org/2001/XMLSchema#float">142.6278388629</ex:hasRainfall>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/humidity_rice">
+    <rdf:type rdf:resource="http://example.org/EnvironmentalFactor"/>
+    <ex:hasHumidity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">82.2728215389</ex:hasHumidity>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/growth_stage_banana">
+    <ex:hasGrowthStage rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.94</ex:hasGrowthStage>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/rainfall_cotton">
+    <rdf:type rdf:resource="http://example.org/EnvironmentalFactor"/>
+    <ex:hasRainfall rdf:datatype="http://www.w3.org/2001/XMLSchema#float">80.3980431193</ex:hasRainfall>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/soil_type_banana">
+    <rdf:type rdf:resource="http://example.org/Soil"/>
+    <ex:hasSoilType rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.12</ex:hasSoilType>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/soil_moisture_coconut">
+    <rdf:type rdf:resource="http://example.org/Soil"/>
+    <ex:hasSoilMoisture rdf:datatype="http://www.w3.org/2001/XMLSchema#float">20.110047624400632</ex:hasSoilMoisture>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/irrigation_kidneybeans">
+    <rdf:type rdf:resource="http://example.org/FarmingInput"/>
+    <ex:hasIrrigationFrequency rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.38</ex:hasIrrigationFrequency>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/rainfall_coconut">
+    <rdf:type rdf:resource="http://example.org/EnvironmentalFactor"/>
+    <ex:hasRainfall rdf:datatype="http://www.w3.org/2001/XMLSchema#float">175.686645804</ex:hasRainfall>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/pigeonpeas">
+    <rdf:type rdf:resource="http://example.org/Crop"/>
+    <ex:hasNutrient rdf:datatype="http://www.w3.org/2001/XMLSchema#float">20.73</ex:hasNutrient>
+    <ex:hasNutrient rdf:datatype="http://www.w3.org/2001/XMLSchema#float">67.73</ex:hasNutrient>
+    <ex:hasNutrient rdf:datatype="http://www.w3.org/2001/XMLSchema#float">20.29</ex:hasNutrient>
+    <ex:hasEnvironmentalFactor rdf:resource="http://example.org/temp_pigeonpeas"/>
+    <ex:hasEnvironmentalFactor rdf:resource="http://example.org/humidity_pigeonpeas"/>
+    <ex:hasEnvironmentalFactor rdf:resource="http://example.org/rainfall_pigeonpeas"/>
+    <ex:hasSoil rdf:resource="http://example.org/soil_moisture_pigeonpeas"/>
+    <ex:hasSoil rdf:resource="http://example.org/soil_type_pigeonpeas"/>
+    <ex:hasFarmingOutput rdf:resource="http://example.org/crop_density_pigeonpeas"/>
+    <ex:hasFarmingOutput rdf:resource="http://example.org/growth_stage_pigeonpeas"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/growth_stage_mango">
+    <ex:hasGrowthStage rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.0</ex:hasGrowthStage>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/humidity_pigeonpeas">
+    <rdf:type rdf:resource="http://example.org/EnvironmentalFactor"/>
+    <ex:hasHumidity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">48.0616330847</ex:hasHumidity>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/soil_type_blackgram">
+    <rdf:type rdf:resource="http://example.org/Soil"/>
+    <ex:hasSoilType rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.78</ex:hasSoilType>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/crop_density_kidneybeans">
+    <ex:hasCropDensity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">12.62408360116524</ex:hasCropDensity>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/fertilizer_maize">
+    <rdf:type rdf:resource="http://example.org/FarmingInput"/>
+    <ex:hasFertilizerUsage rdf:datatype="http://www.w3.org/2001/XMLSchema#float">120.7526690910403</ex:hasFertilizerUsage>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/growth_stage_cotton">
+    <ex:hasGrowthStage rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.05</ex:hasGrowthStage>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/irrigation_maize">
+    <rdf:type rdf:resource="http://example.org/FarmingInput"/>
+    <ex:hasIrrigationFrequency rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.44</ex:hasIrrigationFrequency>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/temp_apple">
+    <rdf:type rdf:resource="http://example.org/EnvironmentalFactor"/>
+    <ex:hasTemperature rdf:datatype="http://www.w3.org/2001/XMLSchema#float">22.6309424132</ex:hasTemperature>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/fertilizer_kidneybeans">
+    <rdf:type rdf:resource="http://example.org/FarmingInput"/>
+    <ex:hasFertilizerUsage rdf:datatype="http://www.w3.org/2001/XMLSchema#float">125.5198227453769</ex:hasFertilizerUsage>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/soil_type_mungbean">
+    <rdf:type rdf:resource="http://example.org/Soil"/>
+    <ex:hasSoilType rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.96</ex:hasSoilType>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/crop_density_pigeonpeas">
+    <ex:hasCropDensity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">12.194127272840316</ex:hasCropDensity>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/fertilizer_lentil">
+    <rdf:type rdf:resource="http://example.org/FarmingInput"/>
+    <ex:hasFertilizerUsage rdf:datatype="http://www.w3.org/2001/XMLSchema#float">128.39828645637917</ex:hasFertilizerUsage>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/soil_type_mothbeans">
+    <rdf:type rdf:resource="http://example.org/Soil"/>
+    <ex:hasSoilType rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.88</ex:hasSoilType>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/FarmingInput">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/crop_density_chickpea">
+    <ex:hasCropDensity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">12.860030541892336</ex:hasCropDensity>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/growth_stage_blackgram">
+    <ex:hasGrowthStage rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.09</ex:hasGrowthStage>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/irrigation_chickpea">
+    <rdf:type rdf:resource="http://example.org/FarmingInput"/>
+    <ex:hasIrrigationFrequency rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.85</ex:hasIrrigationFrequency>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/soil_moisture_grapes">
+    <rdf:type rdf:resource="http://example.org/Soil"/>
+    <ex:hasSoilMoisture rdf:datatype="http://www.w3.org/2001/XMLSchema#float">19.620925757761857</ex:hasSoilMoisture>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/crop_density_coffee">
+    <ex:hasCropDensity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">12.905832334813152</ex:hasCropDensity>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/growth_stage_chickpea">
+    <ex:hasGrowthStage rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.03</ex:hasGrowthStage>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/temp_papaya">
+    <rdf:type rdf:resource="http://example.org/EnvironmentalFactor"/>
+    <ex:hasTemperature rdf:datatype="http://www.w3.org/2001/XMLSchema#float">33.7238587388</ex:hasTemperature>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/soil_moisture_maize">
+    <rdf:type rdf:resource="http://example.org/Soil"/>
+    <ex:hasSoilMoisture rdf:datatype="http://www.w3.org/2001/XMLSchema#float">20.53771322170541</ex:hasSoilMoisture>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/rainfall_lentil">
+    <rdf:type rdf:resource="http://example.org/EnvironmentalFactor"/>
+    <ex:hasRainfall rdf:datatype="http://www.w3.org/2001/XMLSchema#float">45.680454204</ex:hasRainfall>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/soil_moisture_banana">
+    <rdf:type rdf:resource="http://example.org/Soil"/>
+    <ex:hasSoilMoisture rdf:datatype="http://www.w3.org/2001/XMLSchema#float">20.428229095024065</ex:hasSoilMoisture>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/humidity_watermelon">
+    <rdf:type rdf:resource="http://example.org/EnvironmentalFactor"/>
+    <ex:hasHumidity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">85.16037529360001</ex:hasHumidity>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/rainfall_apple">
+    <rdf:type rdf:resource="http://example.org/EnvironmentalFactor"/>
+    <ex:hasRainfall rdf:datatype="http://www.w3.org/2001/XMLSchema#float">112.654779275</ex:hasRainfall>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/temp_pigeonpeas">
+    <rdf:type rdf:resource="http://example.org/EnvironmentalFactor"/>
+    <ex:hasTemperature rdf:datatype="http://www.w3.org/2001/XMLSchema#float">27.7417622259</ex:hasTemperature>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/irrigation_coffee">
+    <rdf:type rdf:resource="http://example.org/FarmingInput"/>
+    <ex:hasIrrigationFrequency rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.56</ex:hasIrrigationFrequency>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/temp_cotton">
+    <rdf:type rdf:resource="http://example.org/EnvironmentalFactor"/>
+    <ex:hasTemperature rdf:datatype="http://www.w3.org/2001/XMLSchema#float">23.9889578952</ex:hasTemperature>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/irrigation_pigeonpeas">
+    <rdf:type rdf:resource="http://example.org/FarmingInput"/>
+    <ex:hasIrrigationFrequency rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.41</ex:hasIrrigationFrequency>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/humidity_papaya">
+    <rdf:type rdf:resource="http://example.org/EnvironmentalFactor"/>
+    <ex:hasHumidity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">92.4033876826</ex:hasHumidity>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/humidity_blackgram">
+    <rdf:type rdf:resource="http://example.org/EnvironmentalFactor"/>
+    <ex:hasHumidity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">65.1184255887</ex:hasHumidity>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/humidity_chickpea">
+    <rdf:type rdf:resource="http://example.org/EnvironmentalFactor"/>
+    <ex:hasHumidity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">16.8604394237</ex:hasHumidity>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/soil_type_coconut">
+    <rdf:type rdf:resource="http://example.org/Soil"/>
+    <ex:hasSoilType rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.05</ex:hasSoilType>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/fertilizer_pomegranate">
+    <rdf:type rdf:resource="http://example.org/FarmingInput"/>
+    <ex:hasFertilizerUsage rdf:datatype="http://www.w3.org/2001/XMLSchema#float">136.31255754583395</ex:hasFertilizerUsage>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/irrigation_pomegranate">
+    <rdf:type rdf:resource="http://example.org/FarmingInput"/>
+    <ex:hasIrrigationFrequency rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.47</ex:hasIrrigationFrequency>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/rainfall_muskmelon">
+    <rdf:type rdf:resource="http://example.org/EnvironmentalFactor"/>
+    <ex:hasRainfall rdf:datatype="http://www.w3.org/2001/XMLSchema#float">24.689952066</ex:hasRainfall>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/rainfall_rice">
+    <rdf:type rdf:resource="http://example.org/EnvironmentalFactor"/>
+    <ex:hasRainfall rdf:datatype="http://www.w3.org/2001/XMLSchema#float">236.181113594</ex:hasRainfall>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/rainfall_chickpea">
+    <rdf:type rdf:resource="http://example.org/EnvironmentalFactor"/>
+    <ex:hasRainfall rdf:datatype="http://www.w3.org/2001/XMLSchema#float">80.0589772605</ex:hasRainfall>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/temp_mungbean">
+    <rdf:type rdf:resource="http://example.org/EnvironmentalFactor"/>
+    <ex:hasTemperature rdf:datatype="http://www.w3.org/2001/XMLSchema#float">28.5257747353</ex:hasTemperature>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/growth_stage_muskmelon">
+    <ex:hasGrowthStage rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.03</ex:hasGrowthStage>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/humidity_maize">
+    <rdf:type rdf:resource="http://example.org/EnvironmentalFactor"/>
+    <ex:hasHumidity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">65.0922494467</ex:hasHumidity>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/soil_moisture_watermelon">
+    <rdf:type rdf:resource="http://example.org/Soil"/>
+    <ex:hasSoilMoisture rdf:datatype="http://www.w3.org/2001/XMLSchema#float">19.86387994060307</ex:hasSoilMoisture>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/irrigation_mothbeans">
+    <rdf:type rdf:resource="http://example.org/FarmingInput"/>
+    <ex:hasIrrigationFrequency rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.61</ex:hasIrrigationFrequency>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/fertilizer_chickpea">
+    <rdf:type rdf:resource="http://example.org/FarmingInput"/>
+    <ex:hasFertilizerUsage rdf:datatype="http://www.w3.org/2001/XMLSchema#float">119.44473080647109</ex:hasFertilizerUsage>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/rainfall_jute">
+    <rdf:type rdf:resource="http://example.org/EnvironmentalFactor"/>
+    <ex:hasRainfall rdf:datatype="http://www.w3.org/2001/XMLSchema#float">174.792797536</ex:hasRainfall>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/rainfall_banana">
+    <rdf:type rdf:resource="http://example.org/EnvironmentalFactor"/>
+    <ex:hasRainfall rdf:datatype="http://www.w3.org/2001/XMLSchema#float">104.6269804001</ex:hasRainfall>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/humidity_mothbeans">
+    <rdf:type rdf:resource="http://example.org/EnvironmentalFactor"/>
+    <ex:hasHumidity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">53.16041802790001</ex:hasHumidity>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/irrigation_watermelon">
+    <rdf:type rdf:resource="http://example.org/FarmingInput"/>
+    <ex:hasIrrigationFrequency rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.48</ex:hasIrrigationFrequency>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/growth_stage_grapes">
+    <ex:hasGrowthStage rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.1</ex:hasGrowthStage>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/soil_type_cotton">
+    <rdf:type rdf:resource="http://example.org/Soil"/>
+    <ex:hasSoilType rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.97</ex:hasSoilType>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/humidity_pomegranate">
+    <rdf:type rdf:resource="http://example.org/EnvironmentalFactor"/>
+    <ex:hasHumidity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">90.1255037895</ex:hasHumidity>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/soil_moisture_pomegranate">
+    <rdf:type rdf:resource="http://example.org/Soil"/>
+    <ex:hasSoilMoisture rdf:datatype="http://www.w3.org/2001/XMLSchema#float">21.23460280671237</ex:hasSoilMoisture>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/temp_chickpea">
+    <rdf:type rdf:resource="http://example.org/EnvironmentalFactor"/>
+    <ex:hasTemperature rdf:datatype="http://www.w3.org/2001/XMLSchema#float">18.8728467519</ex:hasTemperature>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/rainfall_grapes">
+    <rdf:type rdf:resource="http://example.org/EnvironmentalFactor"/>
+    <ex:hasRainfall rdf:datatype="http://www.w3.org/2001/XMLSchema#float">69.611828886</ex:hasRainfall>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/irrigation_lentil">
+    <rdf:type rdf:resource="http://example.org/FarmingInput"/>
+    <ex:hasIrrigationFrequency rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.58</ex:hasIrrigationFrequency>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/growth_stage_mothbeans">
+    <ex:hasGrowthStage rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.02</ex:hasGrowthStage>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/growth_stage_papaya">
+    <ex:hasGrowthStage rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.99</ex:hasGrowthStage>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/fertilizer_mothbeans">
+    <rdf:type rdf:resource="http://example.org/FarmingInput"/>
+    <ex:hasFertilizerUsage rdf:datatype="http://www.w3.org/2001/XMLSchema#float">124.36406266927476</ex:hasFertilizerUsage>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/temp_maize">
+    <rdf:type rdf:resource="http://example.org/EnvironmentalFactor"/>
+    <ex:hasTemperature rdf:datatype="http://www.w3.org/2001/XMLSchema#float">22.3892039102</ex:hasTemperature>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/Nutrient">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/crop_density_mango">
+    <ex:hasCropDensity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">12.80345221798264</ex:hasCropDensity>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/irrigation_grapes">
+    <rdf:type rdf:resource="http://example.org/FarmingInput"/>
+    <ex:hasIrrigationFrequency rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.54</ex:hasIrrigationFrequency>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/soil_moisture_muskmelon">
+    <rdf:type rdf:resource="http://example.org/Soil"/>
+    <ex:hasSoilMoisture rdf:datatype="http://www.w3.org/2001/XMLSchema#float">19.78679259371756</ex:hasSoilMoisture>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/temp_lentil">
+    <rdf:type rdf:resource="http://example.org/EnvironmentalFactor"/>
+    <ex:hasTemperature rdf:datatype="http://www.w3.org/2001/XMLSchema#float">24.5090524026</ex:hasTemperature>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/fertilizer_papaya">
+    <rdf:type rdf:resource="http://example.org/FarmingInput"/>
+    <ex:hasFertilizerUsage rdf:datatype="http://www.w3.org/2001/XMLSchema#float">121.51946961829675</ex:hasFertilizerUsage>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/temp_grapes">
+    <rdf:type rdf:resource="http://example.org/EnvironmentalFactor"/>
+    <ex:hasTemperature rdf:datatype="http://www.w3.org/2001/XMLSchema#float">23.84957512005</ex:hasTemperature>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/soil_type_lentil">
+    <rdf:type rdf:resource="http://example.org/Soil"/>
+    <ex:hasSoilType rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.95</ex:hasSoilType>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/crop_density_pomegranate">
+    <ex:hasCropDensity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">12.66435155093155</ex:hasCropDensity>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/fertilizer_cotton">
+    <rdf:type rdf:resource="http://example.org/FarmingInput"/>
+    <ex:hasFertilizerUsage rdf:datatype="http://www.w3.org/2001/XMLSchema#float">126.7774734549394</ex:hasFertilizerUsage>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/irrigation_mungbean">
+    <rdf:type rdf:resource="http://example.org/FarmingInput"/>
+    <ex:hasIrrigationFrequency rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.39</ex:hasIrrigationFrequency>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/fertilizer_watermelon">
+    <rdf:type rdf:resource="http://example.org/FarmingInput"/>
+    <ex:hasFertilizerUsage rdf:datatype="http://www.w3.org/2001/XMLSchema#float">124.92292987937162</ex:hasFertilizerUsage>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/rainfall_mungbean">
+    <rdf:type rdf:resource="http://example.org/EnvironmentalFactor"/>
+    <ex:hasRainfall rdf:datatype="http://www.w3.org/2001/XMLSchema#float">48.4036009029</ex:hasRainfall>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/fertilizer_blackgram">
+    <rdf:type rdf:resource="http://example.org/FarmingInput"/>
+    <ex:hasFertilizerUsage rdf:datatype="http://www.w3.org/2001/XMLSchema#float">120.9513280041332</ex:hasFertilizerUsage>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/growth_stage_watermelon">
+    <ex:hasGrowthStage rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.18</ex:hasGrowthStage>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/crop_density_lentil">
+    <ex:hasCropDensity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">12.170437536248048</ex:hasCropDensity>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/fertilizer_mungbean">
+    <rdf:type rdf:resource="http://example.org/FarmingInput"/>
+    <ex:hasFertilizerUsage rdf:datatype="http://www.w3.org/2001/XMLSchema#float">128.27498244699711</ex:hasFertilizerUsage>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/temp_watermelon">
+    <rdf:type rdf:resource="http://example.org/EnvironmentalFactor"/>
+    <ex:hasTemperature rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25.5917672375</ex:hasTemperature>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/fertilizer_orange">
+    <rdf:type rdf:resource="http://example.org/FarmingInput"/>
+    <ex:hasFertilizerUsage rdf:datatype="http://www.w3.org/2001/XMLSchema#float">127.53901663218902</ex:hasFertilizerUsage>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/growth_stage_orange">
+    <ex:hasGrowthStage rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.17</ex:hasGrowthStage>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/humidity_apple">
+    <rdf:type rdf:resource="http://example.org/EnvironmentalFactor"/>
+    <ex:hasHumidity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">92.3333828756</ex:hasHumidity>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/crop_density_grapes">
+    <ex:hasCropDensity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">11.90123522826796</ex:hasCropDensity>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/rainfall_orange">
+    <rdf:type rdf:resource="http://example.org/EnvironmentalFactor"/>
+    <ex:hasRainfall rdf:datatype="http://www.w3.org/2001/XMLSchema#float">110.47496872</ex:hasRainfall>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/soil_type_mango">
+    <rdf:type rdf:resource="http://example.org/Soil"/>
+    <ex:hasSoilType rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.06</ex:hasSoilType>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/soil_type_muskmelon">
+    <rdf:type rdf:resource="http://example.org/Soil"/>
+    <ex:hasSoilType rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.92</ex:hasSoilType>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/crop_density_coconut">
+    <ex:hasCropDensity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">13.20583632779183</ex:hasCropDensity>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/crop_density_blackgram">
+    <ex:hasCropDensity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">12.3241802905084</ex:hasCropDensity>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/soil_type_coffee">
+    <rdf:type rdf:resource="http://example.org/Soil"/>
+    <ex:hasSoilType rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.03</ex:hasSoilType>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/crop_density_watermelon">
+    <ex:hasCropDensity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">12.106600041938083</ex:hasCropDensity>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/growth_stage_apple">
+    <ex:hasGrowthStage rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.83</ex:hasGrowthStage>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/irrigation_coconut">
+    <rdf:type rdf:resource="http://example.org/FarmingInput"/>
+    <ex:hasIrrigationFrequency rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.48</ex:hasIrrigationFrequency>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/growth_stage_jute">
+    <ex:hasGrowthStage rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.89</ex:hasGrowthStage>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/Soil">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/soil_type_chickpea">
+    <rdf:type rdf:resource="http://example.org/Soil"/>
+    <ex:hasSoilType rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.05</ex:hasSoilType>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/fertilizer_muskmelon">
+    <rdf:type rdf:resource="http://example.org/FarmingInput"/>
+    <ex:hasFertilizerUsage rdf:datatype="http://www.w3.org/2001/XMLSchema#float">127.33485421836184</ex:hasFertilizerUsage>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/humidity_cotton">
+    <rdf:type rdf:resource="http://example.org/EnvironmentalFactor"/>
+    <ex:hasHumidity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">79.8434742538</ex:hasHumidity>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/rainfall_coffee">
+    <rdf:type rdf:resource="http://example.org/EnvironmentalFactor"/>
+    <ex:hasRainfall rdf:datatype="http://www.w3.org/2001/XMLSchema#float">158.066294882</ex:hasRainfall>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/growth_stage_mungbean">
+    <ex:hasGrowthStage rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.97</ex:hasGrowthStage>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/fertilizer_grapes">
+    <rdf:type rdf:resource="http://example.org/FarmingInput"/>
+    <ex:hasFertilizerUsage rdf:datatype="http://www.w3.org/2001/XMLSchema#float">127.29947478705368</ex:hasFertilizerUsage>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/growth_stage_pigeonpeas">
+    <ex:hasGrowthStage rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.98</ex:hasGrowthStage>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/soil_moisture_apple">
+    <rdf:type rdf:resource="http://example.org/Soil"/>
+    <ex:hasSoilMoisture rdf:datatype="http://www.w3.org/2001/XMLSchema#float">21.22248265974933</ex:hasSoilMoisture>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/irrigation_jute">
+    <rdf:type rdf:resource="http://example.org/FarmingInput"/>
+    <ex:hasIrrigationFrequency rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.48</ex:hasIrrigationFrequency>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/growth_stage_lentil">
+    <ex:hasGrowthStage rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.93</ex:hasGrowthStage>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/soil_moisture_cotton">
+    <rdf:type rdf:resource="http://example.org/Soil"/>
+    <ex:hasSoilMoisture rdf:datatype="http://www.w3.org/2001/XMLSchema#float">20.22402423572212</ex:hasSoilMoisture>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/soil_moisture_blackgram">
+    <rdf:type rdf:resource="http://example.org/Soil"/>
+    <ex:hasSoilMoisture rdf:datatype="http://www.w3.org/2001/XMLSchema#float">20.87555687862022</ex:hasSoilMoisture>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/crop_density_maize">
+    <ex:hasCropDensity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">11.650244605806366</ex:hasCropDensity>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/soil_moisture_mango">
+    <rdf:type rdf:resource="http://example.org/Soil"/>
+    <ex:hasSoilMoisture rdf:datatype="http://www.w3.org/2001/XMLSchema#float">19.33368969598425</ex:hasSoilMoisture>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/irrigation_muskmelon">
+    <rdf:type rdf:resource="http://example.org/FarmingInput"/>
+    <ex:hasIrrigationFrequency rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.3</ex:hasIrrigationFrequency>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/FarmingOutput">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/soil_type_jute">
+    <rdf:type rdf:resource="http://example.org/Soil"/>
+    <ex:hasSoilType rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.12</ex:hasSoilType>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/crop_density_orange">
+    <ex:hasCropDensity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">12.413693412806968</ex:hasCropDensity>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/humidity_orange">
+    <rdf:type rdf:resource="http://example.org/EnvironmentalFactor"/>
+    <ex:hasHumidity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">92.1702087634</ex:hasHumidity>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/soil_moisture_papaya">
+    <rdf:type rdf:resource="http://example.org/Soil"/>
+    <ex:hasSoilMoisture rdf:datatype="http://www.w3.org/2001/XMLSchema#float">20.1804977959253</ex:hasSoilMoisture>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/temp_coffee">
+    <rdf:type rdf:resource="http://example.org/EnvironmentalFactor"/>
+    <ex:hasTemperature rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25.5404768193</ex:hasTemperature>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/EnvironmentalFactor">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/crop_density_jute">
+    <ex:hasCropDensity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">11.888415950460276</ex:hasCropDensity>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/crop_density_banana">
+    <ex:hasCropDensity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">12.182722756398162</ex:hasCropDensity>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/soil_moisture_mothbeans">
+    <rdf:type rdf:resource="http://example.org/Soil"/>
+    <ex:hasSoilMoisture rdf:datatype="http://www.w3.org/2001/XMLSchema#float">19.96518990171611</ex:hasSoilMoisture>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/rainfall_pomegranate">
+    <rdf:type rdf:resource="http://example.org/EnvironmentalFactor"/>
+    <ex:hasRainfall rdf:datatype="http://www.w3.org/2001/XMLSchema#float">107.528442397</ex:hasRainfall>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/temp_pomegranate">
+    <rdf:type rdf:resource="http://example.org/EnvironmentalFactor"/>
+    <ex:hasTemperature rdf:datatype="http://www.w3.org/2001/XMLSchema#float">21.837841722</ex:hasTemperature>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/crop_density_muskmelon">
+    <ex:hasCropDensity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">12.199949456840676</ex:hasCropDensity>
+  </rdf:Description>
+</rdf:RDF>
